@@ -1,0 +1,139 @@
+.projects{
+    margin-bottom: 100px;
+    padding: 50px 0;
+}
+
+.projects h2{
+    font-family: 'Staatliches', cursive;
+    font-size: 4rem;
+    color: #020120;
+    text-align: center;
+}
+
+.projects p{
+    text-align: center;
+    color: #020120;
+    font-size: 2rem;
+}
+
+.projects p a{
+    font-size: 2rem;
+}
+
+.grid-projects{
+    padding-top: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.grid-projects figure{
+    position: relative;
+    overflow: hidden;
+    width: 40rem;
+    height: 30rem;
+    border-radius: 15px;
+}
+
+.grid-projects figure img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-projects .overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #020120;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.grid-projects .overlay:hover{
+    opacity: 1;
+}
+
+.grid-projects .overlay h2{
+    font-size: 3.3rem;
+    color: #eceff1;
+}
+
+.grid-projects .overlay a{
+    color: #eceff1;
+    text-decoration: none;
+    border: 3px solid #ffbc0e;
+    background: #020120;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 7px 10px;
+    transition: 0.3s;
+}
+
+.grid-projects .overlay a:hover{
+    background: #ffbc0e;
+    color: #020120;
+}
+
+.grid-projects figure figcaption{
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+/* color: #eceff1; blanco */
+
+@media (max-width: 1000px) and (min-width: 0){
+
+    .grid-projects figure{
+        padding: 0;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .grid-projects .overlay{
+        display: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .grid-projects figure figcaption{
+        display: block;
+    }
+
+    .grid-projects figure figcaption a{
+        text-decoration: none;
+        background: #ffbc0e;
+        padding: 5px 10px;
+        color: #020120;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 425px){
+    .grid-projects figure{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .grid-projects figure img{
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 320px) and (min-width: 0) {
+    .grid-projects figure{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .grid-projects figure img{
+        object-fit: contain;
+    }
+}

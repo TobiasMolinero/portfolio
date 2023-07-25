@@ -1,0 +1,38 @@
+.header-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    padding: 10px 3%;
+}
+
+.header-form .logo img{
+    height: 70px;
+    width: auto;
+    transition: 0.3s;
+}
+
+.header-form .logo img:hover{
+    transform: scale(1.2);
+}
+
+
+.header-form .button button{
+    padding: 10px 15px;
+    background: #ffbc0e;
+    border: none;
+    color: #020120;
+    font-weight: 800;
+    transition: .3s;
+}
+
+.header-form .button .link:hover button{
+    background-color: #020120;
+    color: #eceff1;
+}
+
+.header-form .button .link{
+    text-decoration: none;
+}
+

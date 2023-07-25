@@ -1,0 +1,59 @@
+.skills{
+    background: #020120;
+}
+
+.skills h2{
+    margin: 30px 0;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.skill-cards{
+    padding: 10px 200px 45px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skill{
+    background: #eceff1;
+    width: 160px;  
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid #ffbc0e ;
+    outline-offset: 2px;
+}
+
+.skill figure{
+    background: transparent;
+    margin: auto;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill figure img{
+    width: 60px;
+    height: 60px;
+    filter:drop-shadow(2px 2px 1px #000)
+}
+
+.skill h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 0){
+    .skill-cards{
+        padding: 10px;
+    }
+}
