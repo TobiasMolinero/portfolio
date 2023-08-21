@@ -8,7 +8,7 @@ const Header = () => {
         <div className="logo">
             <img src={logo} alt="logo"/>
         </div>
-        <Link className='link' to='https://forms.gle/vdfVD7PsKpZyVpPcA' target='_blank'><button>Contact me</button></Link>
+        <Link className='link' to='https://forms.gle/vdfVD7PsKpZyVpPcA' target='_blank'><button>Contactame</button></Link>
     </header>
   )
 }

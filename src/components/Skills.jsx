@@ -13,7 +13,7 @@ const Skills = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <h2>Technologies & Dev tools</h2>
+                        <h2>Tecnologías y herramientas de desarrollo</h2>
                         <div className='skill-cards'>
                             <div className="skill">
                                 <figure>

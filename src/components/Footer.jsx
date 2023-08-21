@@ -7,10 +7,10 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div id="contact-me">
-                <h2 className="text-center">Contact Me</h2>
-                <p>Do you want your page to be more than an idea? I help you make it real.</p>
+                <h2 className="text-center">Contactame</h2>
+                <p>¿Quieres que tu pagina sea mas que solo una idea? Yo te ayudo a hacerla realidad.</p>
                 <div className="d-flex align-items-start">
-                    <Link className='link' to='https://forms.gle/vdfVD7PsKpZyVpPcA' target='_blank'><button>Let's do this!</button></Link>
+                    <Link className='link' to='https://forms.gle/vdfVD7PsKpZyVpPcA' target='_blank'><button>¡Conversemos!</button></Link>
                 </div>
             </div>
             <div className="social-media">
@@ -23,8 +23,8 @@ const Footer = () => {
                 </div>
             </div>
             <div className="derechos">
-                <h3>Handcrafted by me &#169; 2023</h3>
-                <h5>made with React<img src={react} alt='icon'/></h5>
+                <h3>Hecho a mano por mi &#169; 2023</h3>
+                <h5>Desarrollado con React<img src={react} alt='icon'/></h5>
             </div>
         </footer>
     )
