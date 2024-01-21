@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,300;1,6..12,400;1,6..12,500&family=Staatliches&display=swap');
+
+:root{
+    font-size: 10px;
+    scroll-behavior: smooth;
+
+    /* fuentes de letras */
+    --nunito-sans: 'Nunito Sans', sans-serif;
+    --staatliches: 'Staatliches', sans-serif;
+
+    /* colores gama amarillos */
+    --selective-yellow-50: #fffeea;
+    --selective-yellow-100: #fff9c5;
+    --selective-yellow-200: #fff485;
+    --selective-yellow-300: #ffe846;
+    --selective-yellow-400: #ffd81b;
+    --selective-yellow-500: #ffbc0e;
+    --selective-yellow-600: #e28d00;
+    --selective-yellow-700: #bb6302;
+    --selective-yellow-800: #984d08;
+    --selective-yellow-900: #7c3f0b;
+    --selective-yellow-950: #482000;
+
+    /* colores gama azul */
+    --blue-russian-50: #e6efff;
+    --blue-russian-100: #d1e0ff;
+    --blue-russian-200: #acc5ff;
+    --blue-russian-300: #7a9cff;
+    --blue-russian-400: #4662ff;
+    --blue-russian-500: #1c29ff;
+    --blue-russian-600: #0100ff;
+    --blue-russian-700: #0003ff;
+    --blue-russian-800: #0002dc;
+    --blue-russian-900: #0605aa;
+    --blue-russian-950: #020120;
+
+    /* blancos, grises y negro */
+    --cod-gray-50: #f6f6f6;
+    --cod-gray-100: #e7e7e7;
+    --cod-gray-200: #d1d1d1;
+    --cod-gray-300: #b0b0b0;
+    --cod-gray-400: #888888;
+    --cod-gray-500: #6d6d6d;
+    --cod-gray-600: #5d5d5d;
+    --cod-gray-700: #4f4f4f;
+    --cod-gray-800: #454545;
+    --cod-gray-900: #3d3d3d;
+    --cod-gray-950: #0c0c0c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #020120;
+}

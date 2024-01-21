@@ -1,0 +1,51 @@
+/* ESCRITORIO */
+@media screen and (min-width: 1024px){
+    .header{
+        font-size: 1.8rem;
+        font-family: var(--nunito-sans);
+        font-weight: 500;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+    }
+    
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+    }
+    
+    .logo img{
+        width: 80px;
+        transition: 0.3s;
+    }
+
+    .logo img:hover{
+        scale: 1.1; 
+    }
+    
+    .link_contacto{
+        margin-right: 40px;
+        color: var(--blue-russian-950);
+        background: var(--selective-yellow-500);
+        padding: 10px 20px;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .link_contacto:hover{
+        box-shadow: 0 0 5px var(--selective-yellow-400);
+    }
+}
+
+/* TABLET */
+@media screen and (min-width: 767px) and  (max-width: 1023px){
+
+}
+
+/* SMARTPHONES */
+@media screen and (max-width: 767px){
+
+}

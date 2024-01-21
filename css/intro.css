@@ -1,0 +1,54 @@
+
+
+.grid_intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 150px;
+}
+
+
+.intro_picture img{
+    width: 500px;
+    filter: grayscale(1);
+}
+
+
+.title{
+    font-family: var(--staatliches);
+    font-size: 4rem;
+    color: var(--selective-yellow-500);
+}
+
+.subtitle{
+    font-family: var(--nunito-sans);
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--selective-yellow-50);
+}
+
+.text{
+    font-family: var(--nunito-sans);
+    font-size: 1.6rem;
+    color: var(--selective-yellow-50);
+    margin: 10px 0;
+}
+
+.redes{
+    font-size:2.1rem;
+}
+
+.redes .link{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.redes i{
+    transition: 0.3s;
+}
+
+.redes i:hover{
+    color: var(--selective-yellow-500);
+    filter: drop-shadow(0 0 1px var(--selective-yellow-500));
+}
