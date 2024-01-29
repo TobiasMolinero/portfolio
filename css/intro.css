@@ -1,54 +1,190 @@
+/* ESCRITORIO */
+@media screen and (min-width: 1024px){
+
+    .intro{
+        margin-top: 40px;
+        padding-bottom: 55px;
+    }
+
+    .grid_intro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin: 0 50px;
+    }
+
+    .intro_picture{
+        display: flex;
+        justify-content: center;
+        animation: mostrarElemento 1.4s;
+    }
+    
+    .intro_picture img{
+        width: 450px;
+        transition: 0.3s;
+    }
+    .intro_picture img:hover{
+        transform: scale(1.05);
+    }
+
+    .intro_text{
+        animation: mostrarElemento 1.4s;
+    }
+
+    
+    .title{
+        font-family: var(--staatliches);
+        font-size: 5rem;
+        color: var(--selective-yellow-500);
+    }
+    
+    .subtitle{
+        font-family: var(--nunito-sans);
+        font-size: 1.8rem;
+        font-weight: 800;
+        color: var(--selective-yellow-50);
+        margin-bottom: 10px;
+    }
+    
+    .text{
+        font-family: var(--nunito-sans);
+        font-size: 1.6rem;
+        color: var(--selective-yellow-50);
+        margin-bottom: 10px;
+        width: 550px;
+    }
+    
+    .redes{
+        font-size:2.4rem;
+        margin-top: 15px;
+    }
+    
+    .redes .link{
+        text-decoration: none;
+        color: #cccccc;
+    }
+    
+    .redes i{
+        transition: 0.3s;
+    }
+    
+    .redes i:hover{
+        color: var(--selective-yellow-500);
+        filter: drop-shadow(0 0 1px var(--selective-yellow-500));
+    }
+
+}
+
+/* TABLET */
+@media screen and (min-width: 767px) and  (max-width: 1023px){
+
+    .intro{
+        margin-top: 50px;
+    }
+
+    .grid_intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin: 0 150px;
+    }
+
+    .intro_picture img{
+        width: 450px;
+    }
+
+    .title{
+        font-family: var(--staatliches);
+        font-size: 5rem;
+        color: var(--selective-yellow-500);
+    }
+    
+    .subtitle{
+        font-family: var(--nunito-sans);
+        font-size: 1.8rem;
+        font-weight: 800;
+        color: var(--selective-yellow-50);
+    }
+    
+    .text{
+        font-family: var(--nunito-sans);
+        font-size: 1.6rem;
+        color: var(--selective-yellow-50);
+        margin: 10px 0;
+    }
+    
+    .redes{
+        font-size:2.1rem;
+    }
+    
+    .redes .link{
+        text-decoration: none;
+        color: #cccccc;
+    }
+}
+
+/* SMARTPHONE */
+@media screen and (max-width: 767px){
+
+    .intro{
+        margin-top: 20px;
+    }
+    
+    .grid_intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin: 0 40px;
+    }
 
 
-.grid_intro{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin: 0 150px;
+    .intro_picture img{
+        width:300px;
+    }
+        
+    .title{
+        font-family: var(--staatliches);
+        font-size: 4rem;
+        color: var(--selective-yellow-500);
+    }
+    
+    .subtitle{
+        font-family: var(--nunito-sans);
+        font-size: 1.6rem;
+        font-weight: 800;
+        color: var(--selective-yellow-50);
+    }
+    
+    .text{
+        font-family: var(--nunito-sans);
+        font-size: 1.4rem;
+        color: var(--selective-yellow-50);
+        margin: 10px 0;
+    }
+    
+    .redes{
+        font-size:2rem;
+    }
+    
+    .redes .link{
+        text-decoration: none;
+        color: #cccccc;
+    }
 }
 
 
-.intro_picture img{
-    width: 500px;
-    filter: grayscale(1);
-}
-
-
-.title{
-    font-family: var(--staatliches);
-    font-size: 4rem;
-    color: var(--selective-yellow-500);
-}
-
-.subtitle{
-    font-family: var(--nunito-sans);
-    font-size: 1.8rem;
-    font-weight: 800;
-    color: var(--selective-yellow-50);
-}
-
-.text{
-    font-family: var(--nunito-sans);
-    font-size: 1.6rem;
-    color: var(--selective-yellow-50);
-    margin: 10px 0;
-}
-
-.redes{
-    font-size:2.1rem;
-}
-
-.redes .link{
-    text-decoration: none;
-    color: #cccccc;
-}
-
-.redes i{
-    transition: 0.3s;
-}
-
-.redes i:hover{
-    color: var(--selective-yellow-500);
-    filter: drop-shadow(0 0 1px var(--selective-yellow-500));
+@keyframes mostrarElemento {
+    from{
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tobias Molinero - Desarrollador Front-end</title>
-    <link rel="icon" href="./assets/logo.ico">
+    <meta name="description" content="Si tenes un emprendimiento o negocio pequeño, te ayudo a hacerlo crecer a través de la web.">
+    <title>Tobias Molinero - Desarrollador Frontend</title>
+    <link rel="icon" href="./assets/logo.png">
 
         <!-- ESTILOS -->
         <link rel="stylesheet" href="./css/root.css">
         <link rel="stylesheet" href="./css/header.css">
         <link rel="stylesheet" href="./css/intro.css">
+        <link rel="stylesheet" href="./css/info.css">
+        <link rel="stylesheet" href="./css/imagen.css">
+        <link rel="stylesheet" href="./css/proyectos.css">
+        <link rel="stylesheet" href="./css/modal.css">
 
         <!-- BOOTSTRAP ICONS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -26,23 +31,25 @@
                 <img src="./assets/logo.png" alt="logo">
             </a>
         </div>
-        <a class="link_contacto" href="./contacto.html">Contactame</a>
+        <a class="link_contacto" href="https://wa.me/+5493815673581?text=Hola Tobias! Tengo esta idea para una pagina web: ..." target="_blank">Contactame</a>
     </header>
+    
+    <a href="https://wa.me/+5493815673581?text=Hola Tobias! Tengo esta idea para una pagina web: ..." target="_blank" class="boton_whatsapp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+    
 
     <section class="intro">
         <div class="grid_intro">
-            <div class="intro_picture">
-                <img src="./assets/foto-sinfondo.png" alt="Tobias Leandro Molinero">
-            </div>
-            <article class="intro_text">
-                <h1 class="title">¡Hola! Soy Tobias Leandro Molinero</h1>
-                <h2 class="subtitle">Desarrollador Front End Jr.</h2>
+            <article id="intoText" class="intro_text">
+                <h1 class="title">¡Hola! Soy Tobias Molinero</h1>
+                <h2 class="subtitle">Desarrollador FrontEnd Jr.</h2>
                 <p class="text">
-                    En el 2022 me adentre en el vasto mundo de la programación, con la idea de aprender a programar videojuegos. Comencé a estudiar la Tecnicatura en programación en la Universidad Tecnologica Nacional en la provincia de Tucuman, Argentina. Donde aprendí un poco de todo, pero principalmente aprendí sobre desarrollo web.
+                    En el 2022 me adentre en el increible mundo de la programación, con la idea de aprender a programar videojuegos. Comencé a estudiar la Tecnicatura en programación en la Universidad Tecnologica Nacional en la provincia de Tucuman, Argentina. Donde aprendí un poco de todo, pero principalmente aprendí sobre desarrollo web.
 
                 </p>
                 <p class="text">
-                    Actualmente me dedico a trabajar como desarrollador freelance, diseñando y desarrollando en la web, a la vez que continúo aprendiendo y creciendo como profesional. 
+                    Actualmente me dedico a trabajar como desarrollador freelance, diseñando y desarrollando paginas web, a la vez que continúo aprendiendo y creciendo como profesional. 
                 </p>
                 <div class="redes">
                     <a class="link" href="https://www.instagram.com/tobiasmolinero98/?next=%2F" target="_blank">
@@ -56,7 +63,127 @@
                     </a>
                 </div>
             </article>
+            <div id="introPicture" class="intro_picture">
+                <img src="./assets/desarrollo_web.svg" alt="Tobias Molinero diseñando y desarrollando sitios web." title="Yo trabajando">
+            </div>
         </div>
     </section>
+
+    <section class="info">
+        <article class="about_me">
+            <h2>Sobre mí</h2>
+            <p>Un poco más de información sobre mí, lo que hago, y mis habilidades actuales con respecto a la programación y tecnología</p>
+            <div class="grid_about">
+                <div class="about_me_text">
+                    <h3>Conóceme más</h3>
+                    <p>Soy un <strong>Desarrollador Frontend jr</strong> principalmente, me encargo de construir la "cara" principal de sitios y aplicaciones web para sacar el maximo potencial de las empresas y/o negocios. Echa un vistazo a mis trabajos en la seccion de <a href="#proyectos"><strong>proyectos.</strong></a></p>
+                    <p>En estos momentos me gusta trabajar en pequeños proyectos para familiares, amigos, negocios pequeños. Con el fin de sumar experiencia como desarrollador y aprender nuevas cosas en el proceso.</p>
+                    <p>Tambien tengo algo de conocimientos en el area del Backend, el lado del servidor. Poseo conocimientos en lenguajes como node.js para construir aplicaciones del lado del servidor, y SQL para la creación y gestión de base datos.</p>
+                    <p>Ademas estoy aprendiendo sobre diseño UX/UI para poder crear experiencias digitales centradas en el usuario que sean intuitivas, eficientes y estéticamente atractivas.</p>
+                </div>
+                <div class="skills">
+                    <h3>Mis habilidades</h3>
+                    <div class="cards">
+                        <div class="card">
+                            <img class="icono" src="./assets/iconos/html-5.png" alt="html">
+                            <h4>HTML</h4>
+                        </div>
+                        <div class="card">
+                            <img class="icono" src="./assets/iconos/css-3.png" alt="css">
+                            <h4>CSS</h4>
+                        </div>
+                        <div class="card">
+                            <img class="icono" src="./assets/iconos/bootstrap.png" alt="bootstrap">
+                            <h4>Bootstrap</h4>
+                        </div>
+                        <div class="card">
+                            <img class="icono" src="./assets/iconos/js.png" alt="javascript">
+                            <h4>Javascript</h4>
+                        </div>
+                        <div class="card">
+                            <img class="icono" src="./assets/iconos/react.png" alt="react js">
+                            <h4>React</h4>
+                        </div>
+                        <div class="card">
+                            <img class="icono" src="./assets/iconos/nodejs.png" alt="node js">
+                            <h4>Node js</h4>
+                        </div>
+                        <div class="card">
+                            <img class="icono" src="./assets/iconos/mysql.png" alt="MySql">
+                            <h4>MySql</h4>
+                        </div>
+                        <div class="card">
+                            <img class="icono" src="./assets/iconos/git.png" alt="git">
+                            <h4>GIT</h4>
+                        </div>
+                        <div class="card">
+                            <img class="icono" src="./assets/iconos/responsive.png" alt="Diseño responsivo">
+                            <h4>Diseño web responsive</h4>
+                        </div>
+                        <div class="card">
+                            <img class="icono" src="./assets/iconos/seo.png" alt="SEO">
+                            <h4>SEO</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="imagen_conceptual">
+        <img src="./assets/desarrollo_web3.svg" alt="Tobias Molinero dessarrolla una aplicacion web." title="Aquí desarrollando una aplicación web">
+    </section>
+
+
+    <section id="proyectos" class="proyectos">
+        <h2>Mis proyectos</h2>
+        <p>Echa un vistazo a mis trabajos recientes, selecciona el que más te guste para saber más sobre el proyecto.</p>
+        <div class="container_grid">
+            <div class="grid_proyectos">
+                <div onclick="abrirModal(1)" class="proyecto">
+                    <img src="./assets/wikidogs.png" alt="wiki dogs">
+                    <p>Ver +</p>
+                </div>
+                <div onclick="abrirModal(2)" class="proyecto">
+                    <img src="./assets/tm.png" alt="Mi portfolio">
+                    <p>Ver +</p>
+                </div>
+                <div onclick="abrirModal(3)" class="proyecto">
+                    <img src="./assets/matob.png" alt="Matob Consultoría">
+                    <p>Ver +</p>
+                </div>
+                <div onclick="abrirModal(4)" class="proyecto">
+                    <img src="./assets/molis.png" alt="Molis desarrollo web">
+                    <p>Ver +</p>
+                </div>
+                <div class="proyecto nuevo">
+                    <img src="./assets/nuevo.png" alt="Nuevo proyecto">
+                    <p><a href="https://wa.me/+5493815673581?text=Hola Tobias! Tengo esta idea para una pagina web: ..." target="_blank">¡Trabajemos juntos!</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="modalBackground" class="modal_background modal_hidden">
+        <div id="modal" class="modal">
+            <div class="header_modal">
+                <i id="botonCerrarModal" class="bi bi-x-circle"></i>
+            </div>
+            <div class="body_modal">
+                <div id="contenidoModal" class="contenido_modal">
+                    <!-- <div class="imagen">
+                        <img src="./assets/wikidogs.png" alt="Foto del proyecto">
+                    </div>
+                    <div class="descripcion">
+                        <h3>Proyecto</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus doloribus, autem blanditiis nulla sequi tempora distinctio natus fuga ducimus dolores expedita exercitationem aliquam! Enim necessitatibus, libero omnis laudantium reprehenderit reiciendis?</p>
+                        <a href="" target="_blank">Visitar sitio web <i class="bi bi-box-arrow-up-right"></i></a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/proyectos.js"></script>
 </body>
 </html>

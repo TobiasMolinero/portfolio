@@ -1,0 +1,297 @@
+
+/* ESCRITORIO  */
+@media screen and (min-width: 1024px){
+    .proyectos{
+        padding: 50px 0;
+    }
+
+    .proyectos > h2 {
+        font-family: var(--staatliches);
+        font-size: 3.5rem;
+        color: var(--selective-yellow-500);
+        text-align: center;
+    }
+
+    .proyectos > p{
+        font-family: var(--nunito-sans);
+        color: var(--selective-yellow-50);
+        font-size: 1.6rem;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .container_grid {
+        padding: 20px;
+    }
+
+    .grid_proyectos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .proyecto{
+        position: relative;
+        border-radius: 5px;
+        overflow: hidden;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+    .proyecto:hover img{
+        transform: scale(1.08);
+        filter: blur(5px);
+    }
+    .proyecto:hover p{
+        transform: translateY(0);
+        opacity: 1;
+        width: 100px;
+    }
+
+    .proyecto img{
+        height: 225px;
+        transition: 0.4s;
+
+    }
+
+    .proyecto p{
+        opacity: 0;
+        position: absolute;
+        width: 60px;
+        text-align: center;
+        font-size: 1.8rem;
+        font-family: var(--nunito-sans);
+        font-weight:700;
+        transform: translateY(150px);
+        transition: 0.4s ease-out;
+        background-color: var(--selective-yellow-500);
+        padding: 10px 0;
+        border-radius: 5px;
+        box-shadow: 0 4px 10px rgb(10, 10, 10);
+        color: var(--blue-russian-950);
+        overflow: hidden;
+    }
+    .proyecto p:hover{
+        background: var(--selective-yellow-600);
+    }
+    .proyecto p:active{
+        background: var(--selective-yellow-500);
+    }
+
+    .nuevo{
+        border: 1px dashed var(--selective-yellow-500);
+        transition: 0.3s;
+    }
+    .nuevo:hover{
+        background: #ffbb0e8e;
+        box-shadow: 0 0 6px #ffbc0e;
+    }
+    .nuevo:hover p{
+        width: 200px;
+    }
+
+    .nuevo p{
+        padding: 10px 0;
+        width: 200px
+    }
+
+    .nuevo p a{
+        color: var(--blue-russian-950);
+        text-decoration: none;
+    }
+
+}
+
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .proyectos{
+        padding: 50px 0;
+    }
+
+    .proyectos > h2 {
+        font-family: var(--staatliches);
+        font-size: 3.5rem;
+        color: var(--selective-yellow-500);
+        text-align: center;
+    }
+
+    .proyectos > p{
+        font-family: var(--nunito-sans);
+        color: var(--selective-yellow-50);
+        font-size: 1.6rem;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .container_grid {
+        padding: 20px;
+    }
+
+    .grid_proyectos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .proyecto{
+        position: relative;
+        border-radius: 5px;
+        overflow: hidden;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+    .proyecto:hover img{
+        transform: scale(1.08);
+        filter: blur(5px);
+    }
+    .proyecto:hover p{
+        transform: translateY(0);
+        opacity: 1;
+        width: 100px;
+    }
+
+    .proyecto img{
+        height: 225px;
+        transition: 0.4s;
+
+    }
+
+    .proyecto p{
+        opacity: 0;
+        position: absolute;
+        width: 60px;
+        text-align: center;
+        font-size: 1.8rem;
+        font-family: var(--nunito-sans);
+        font-weight:700;
+        transform: translateY(150px);
+        transition: 0.4s ease-out;
+        background-color: var(--selective-yellow-500);
+        padding: 10px 0;
+        border-radius: 5px;
+        box-shadow: 0 4px 10px rgb(10, 10, 10);
+        color: var(--blue-russian-950);
+        overflow: hidden;
+    }
+    .proyecto p:hover{
+        background: var(--selective-yellow-600);
+    }
+    .proyecto p:active{
+        background: var(--selective-yellow-500);
+    }
+
+    .nuevo{
+        border: 1px dashed var(--selective-yellow-500);
+        transition: 0.3s;
+    }
+    .nuevo:hover{
+        background: #ffbb0e8e;
+        box-shadow: 0 0 6px #ffbc0e;
+    }
+    .nuevo:hover p{
+        width: 200px;
+    }
+
+    .nuevo p{
+        padding: 10px 0;
+        width: 200px
+    }
+
+    .nuevo p a{
+        color: var(--blue-russian-950);
+        text-decoration: none;
+    }
+}
+
+
+/* SMARTPHONES */
+@media  screen and (max-width: 767px){
+    .proyectos{
+        padding: 50px 0;
+    }
+
+    .proyectos > h2 {
+        font-family: var(--staatliches);
+        font-size: 3.5rem;
+        color: var(--selective-yellow-500);
+        text-align: center;
+    }
+
+    .proyectos > p{
+        font-family: var(--nunito-sans);
+        color: var(--selective-yellow-50);
+        font-size: 1.6rem;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .container_grid {
+        padding: 20px;
+    }
+
+    .grid_proyectos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .proyecto{
+        position: relative;
+        border-radius: 5px;
+        overflow: hidden;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+
+    .proyecto img{
+        height: 225px;
+        transition: 0.4s;
+
+    }
+
+    .proyecto p{
+        opacity: 0;
+        position: absolute;
+        width: 60px;
+        text-align: center;
+        font-size: 1.8rem;
+        font-family: var(--nunito-sans);
+        font-weight:700;
+        transform: translateY(150px);
+        transition: 0.4s ease-out;
+        background-color: var(--selective-yellow-500);
+        padding: 10px 0;
+        border-radius: 5px;
+        box-shadow: 0 4px 10px rgb(10, 10, 10);
+        color: var(--blue-russian-950);
+        overflow: hidden;
+    }
+
+    .nuevo{
+        border: 1px dashed var(--selective-yellow-500);
+        transition: 0.3s;
+    }
+
+
+    .nuevo p{
+        padding: 10px 0;
+        width: 200px
+    }
+
+    .nuevo p a{
+        color: var(--blue-russian-950);
+        text-decoration: none;
+    }
+}

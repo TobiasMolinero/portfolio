@@ -1,0 +1,293 @@
+@media screen and (min-width: 1024px) { 
+    .info{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about_me > h2{
+        font-family: var(--staatliches);
+        font-size: 3.5rem;
+        color: var(--selective-yellow-500);
+        text-align: center;
+    }
+    
+    .about_me > p{
+        font-family: var(--nunito-sans);
+        color: var(--selective-yellow-50);
+        font-size: 1.6rem;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .grid_about{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-top: 50px;
+        padding: 0 40px;
+    }
+    
+    .grid_about h3{
+        font-family: var(--nunito-sans);
+        font-size: 2.2rem;
+        font-weight: 800;
+        color: var(--selective-yellow-500);
+        margin-bottom: 15px;
+    }
+    
+    .grid_about p{
+        font-family: var(--nunito-sans);
+        font-size: 1.6rem;
+        color: var(--selective-yellow-50);
+        margin-bottom: 10px;
+    }
+    
+    .grid_about p a{
+        color: var(--selective-yellow-400);
+        text-decoration: none;
+    }
+    
+    .grid_about p strong{
+        color: var(--selective-yellow-200);
+    }
+    
+    .grid_about p a:hover strong{
+        color: var(--selective-yellow-400);
+        text-shadow: 0 0 8px var(--selective-yellow-400);
+    }
+    
+    
+    .about_me_text{
+        padding: 20px;
+    }
+    
+    .skills{
+        padding: 20px;
+    }
+    
+    .skills h4{
+        font-family: var(--nunito-sans);
+        font-size: 1.2rem;
+        color: var(--selective-yellow-50);
+        text-align: center;
+    }
+    
+    .skills .cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .skills .card{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    
+    
+    
+    .icono{
+        width: 40px;
+        filter: grayscale(100);
+        transition: 0.4s;
+    }
+    
+    .icono:hover{
+        filter: grayscale(0);
+        transform: scale(1.1);
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .info{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about_me > h2{
+        font-family: var(--staatliches);
+        font-size: 3.5rem;
+        color: var(--selective-yellow-500);
+        text-align: center;
+    }
+    
+    .about_me > p{
+        font-family: var(--nunito-sans);
+        color: var(--selective-yellow-50);
+        font-size: 1.6rem;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .grid_about{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    
+    .grid_about h3{
+        font-family: var(--nunito-sans);
+        font-size: 2.2rem;
+        font-weight: 800;
+        color: var(--selective-yellow-500);
+        margin-bottom: 15px;
+    }
+    
+    .grid_about p{
+        font-family: var(--nunito-sans);
+        font-size: 1.6rem;
+        color: var(--selective-yellow-50);
+        margin-bottom: 10px;
+    }
+    
+    .grid_about p a{
+        color: var(--selective-yellow-400);
+        text-decoration: none;
+    }
+    
+    .grid_about p strong{
+        color: var(--selective-yellow-200);
+    }
+    
+    .about_me_text{
+        padding: 20px;
+    }
+    
+    .skills{
+        padding: 20px;
+    }
+    
+    .skills h4{
+        font-family: var(--nunito-sans);
+        font-size: 1.2rem;
+        color: var(--selective-yellow-50);
+        text-align: center;
+    }
+    
+    .skills .cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .skills .card{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    
+    
+    
+    .icono{
+        width: 40px;
+        filter: grayscale(100);
+        transition: 0.4s;
+    }
+    
+}
+
+@media  screen and (max-width: 767px){
+    .info{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about_me > h2{
+        font-family: var(--staatliches);
+        font-size: 3.5rem;
+        color: var(--selective-yellow-500);
+        text-align: center;
+    }
+    
+    .about_me > p{
+        font-family: var(--nunito-sans);
+        color: var(--selective-yellow-50);
+        font-size: 1.6rem;
+        text-align: center;
+        margin: 20px 10px;
+    }
+    
+    .grid_about{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+    
+    .grid_about h3{
+        font-family: var(--nunito-sans);
+        font-size: 2.2rem;
+        font-weight: 800;
+        color: var(--selective-yellow-500);
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .grid_about p{
+        font-family: var(--nunito-sans);
+        font-size: 1.6rem;
+        color: var(--selective-yellow-50);
+        margin-bottom: 10px;
+    }
+    
+    .grid_about p a{
+        color: var(--selective-yellow-400);
+        text-decoration: none;
+    }
+    
+    .grid_about p strong{
+        color: var(--selective-yellow-200);
+    }
+    
+    .about_me_text{
+        padding: 20px;
+    }
+    
+    .skills{
+        padding: 20px;
+    }
+    
+    .skills h4{
+        font-family: var(--nunito-sans);
+        font-size: 1.2rem;
+        color: var(--selective-yellow-50);
+        text-align: center;
+    }
+    
+    .skills .cards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .skills .card{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    
+    .icono{
+        width: 40px;
+        filter: grayscale(100);
+        transition: 0.4s;
+    }
+}

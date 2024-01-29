@@ -57,3 +57,70 @@
 body{
     background: #020120;
 }
+
+.boton_whatsapp{
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    background: #25d366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    color: rgb(238, 238, 238);
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.25);
+    border-radius: 50px;
+    width: 55px;
+    height: 55px;
+}
+
+.boton_whatsapp i{
+    font-size: 2.8rem;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .boton_whatsapp{
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background: #25d366;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 5;
+        color: rgb(238, 238, 238);
+        box-shadow: 0 4px 10px 0 rgba(0,0,0,.25);
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .boton_whatsapp i{
+        font-size: 2.4rem;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .boton_whatsapp{
+        position: fixed;
+        bottom: 25px;
+        right: 15px;
+        background: #25d366;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 5;
+        color: rgb(238, 238, 238);
+        box-shadow: 0 4px 10px 0 rgba(0,0,0,.25);
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .boton_whatsapp i{
+        font-size: 2.2rem;
+        border-radius: 50%;
+    }
+}
