@@ -2,6 +2,7 @@
     .info{
         display: flex;
         justify-content: center;
+        padding-top: 50px;
     }
     
     .about_me > h2{

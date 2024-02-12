@@ -19,7 +19,7 @@ let proyectos = [
     {
         id_proyecto: 3,
         titulo: 'Matob Consultoría',
-        descripcion: 'Este sitio web lo desarrollé para una pequeña consultora de la cual formo parte como diseñador y desarrollador web. La desarrolle con HTML, CSS y Javascript.',
+        descripcion: 'Este sitio web lo desarrollé para una pequeña consultora de la cual formo parte como diseñador y desarrollador web. La desarrollé con HTML, CSS y Javascript. Faltan completarle algunos detalles pero va por buen camino.',
         imagen: './assets/matob.png',
         link: 'https://tobiasmolinero.github.io/matob',
         alt: 'Imagen de matob'
@@ -28,11 +28,10 @@ let proyectos = [
     {
         id_proyecto: 4,
         titulo: 'Molis Desarrollo web',
-        descripcion: 'Sitio para mi emprendimiento de desarrollo web que comencé junto a uno de mis hermanos. Hecho con HTML, CSS y Javascript',
+        descripcion: 'Sitio para mi emprendimiento de desarrollo web que comencé junto a uno de mis hermanos. Actualmente se encuentra en proceso de desarrollo.',
         imagen: './assets/molis.png',
         link: 'https://tobiasmolinero.github.io/moli_desarrollo-web',
         alt: 'Imagen de molis'
-
     }
 ]
 
