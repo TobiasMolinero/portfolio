@@ -32,6 +32,14 @@ let proyectos = [
         imagen: './assets/molis.png',
         link: 'https://tobiasmolinero.github.io/moli_desarrollo-web',
         alt: 'Imagen de molis'
+    },
+    {
+        id_proyecto: 5,
+        titulo: 'Yum Paltas',
+        descripcion: 'Este es un proyecto a largo plazo que comencé el año pasado. Se trata de una aplicación web para un negocio de paltas de una persona conocida, con la idea que pueda gestionar su negocio de una manera mas clara, sencilla y comoda. Por el momento posee funcionalidades como el registro de usuarios para logeo, registro de las ventas, de clientes y de gastos. Este es el primer proyecto propio en el que tuve que implementar base de datos con MySql y un backend con Express.js en Node js.',
+        imagen: './assets/YUM paltas.png',
+        link: '',
+        alt: 'Imagen de Yum paltas'
     }
 ]
 
@@ -77,7 +85,7 @@ function llenarContenido(datos){
             <div class="descripcion">
                 <h3>${d.titulo}</h3>
                 <p>${d.descripcion}</p>
-                <a href="${d.link}" target="_blank">Ver sitio web <i class="bi bi-box-arrow-up-right"></i></a>
+                <a href="${d.link}" target="_blank">Ver más<i class="bi bi-box-arrow-up-right"></i></a>
             </div>
         `
     });
