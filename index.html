@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="./css/imagen.css">
         <link rel="stylesheet" href="./css/proyectos.css">
         <link rel="stylesheet" href="./css/modal.css">
-        <!-- <link rel="stylesheet" href="./css/footer.css"> -->
+        <link rel="stylesheet" href="./css/footer.css">
 
         <!-- BOOTSTRAP ICONS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -65,7 +65,7 @@
                 </div>
             </article>
             <div id="introPicture" class="intro_picture">
-                <img src="./assets/desarrollo_web.svg" alt="Tobias Molinero diseñando y desarrollando sitios web." title="Yo trabajando">
+                <img src="./assets/desarrollo_web.svg" alt="Foto de Tobias Molinero diseñando y desarrollando sitios web." title="Yo trabajando">
             </div>
         </div>
     </section>
@@ -98,12 +98,20 @@
                             <h4>Bootstrap</h4>
                         </div>
                         <div class="card">
+                            <img class="icono" src="./assets/iconos/tailwind-css.svg" alt="tailwind-css">
+                            <h4>Tailwind</h4>
+                        </div>
+                        <div class="card">
                             <img class="icono" src="./assets/iconos/js.png" alt="javascript">
                             <h4>Javascript</h4>
                         </div>
                         <div class="card">
                             <img class="icono" src="./assets/iconos/react.png" alt="react js">
                             <h4>React</h4>
+                        </div>
+                        <div class="card">
+                            <img class="icono" src="./assets/iconos/svelte-icon.png" alt="svelte">
+                            <h4>Svelte</h4>
                         </div>
                         <div class="card">
                             <img class="icono" src="./assets/iconos/nodejs.png" alt="node js">
@@ -121,10 +129,10 @@
                             <img class="icono" src="./assets/iconos/responsive.png" alt="Diseño responsivo">
                             <h4>Diseño web responsive</h4>
                         </div>
-                        <div class="card">
+                        <!-- <div class="card">
                             <img class="icono" src="./assets/iconos/seo.png" alt="SEO">
                             <h4>SEO</h4>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -132,7 +140,7 @@
     </section>
 
     <section class="imagen_conceptual">
-        <img src="./assets/desarrollo_web3.svg" alt="Tobias Molinero dessarrolla una aplicacion web." title="Aquí desarrollando una aplicación web">
+        <img src="./assets/desarrollo_web3.svg" alt="Foto de Tobias Molinero dessarrollando una aplicacion web." title="Aquí desarrollando una aplicación web">
     </section>
 
 
@@ -173,26 +181,43 @@
                 <i id="botonCerrarModal" class="bi bi-x-circle"></i>
             </div>
             <div class="body_modal">
-                <div id="contenidoModal" class="contenido_modal">
-                    <!-- <div class="imagen">
-                        <img src="./assets/wikidogs.png" alt="Foto del proyecto">
-                    </div>
-                    <div class="descripcion">
-                        <h3>Proyecto</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus doloribus, autem blanditiis nulla sequi tempora distinctio natus fuga ducimus dolores expedita exercitationem aliquam! Enim necessitatibus, libero omnis laudantium reprehenderit reiciendis?</p>
-                        <a href="" target="_blank">Visitar sitio web <i class="bi bi-box-arrow-up-right"></i></a>
-                    </div> -->
-                </div>
+                <div id="contenidoModal" class="contenido_modal"></div>
             </div>
         </div>
     </div>
 
-    <!-- <footer>
+    <footer class="footer">
         <h2>INFO - CONTACTO</h2>
         <div class="container_contacto">
-            
+            <ul class="lista_contacto">
+                <li class="item_lista">
+                    <a class="item_whatsapp" href="https://wa.me/+5493815673581?text=Hola Tobias! Tengo esta idea para una pagina web: ..." target="_blank">
+                        <i class="bi bi-whatsapp"></i>
+                        <p>+54 9 3815673581</p>
+                    </a>
+                </li>
+                <li class="item_lista">
+                    <a class="item_gmail" href="">
+                        <i class="bi bi-envelope-at-fill"></i>
+                        <p>tobiasmolinero98@gmail.com</p>
+                    </a>
+                </li>
+                <li class="item_lista">
+                    <a class="item_instagram" href="https://www.instagram.com/tobiasmolinero98/?next=%2F" target="_blank">
+                        <i class="bi bi-instagram"></i>
+                        <p>tobiasmolinero98</p>
+                    </a>
+                </li>
+                <li class="item_lista">
+                    <a class="item_github" href="https://github.com/TobiasMolinero" target="_blank">
+                        <i class="bi bi-github"></i>
+                        <p>TobiasMolinero</p>
+                    </a>
+                </li>
+            </ul>
+            <img src="./assets/Developer activity-bro.svg" alt="Foto conceptual tomando datos de mis clientes">
         </div>
-    </footer> -->
+    </footer>
 
     <script src="./js/proyectos.js"></script>
 </body>
