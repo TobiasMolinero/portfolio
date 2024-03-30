@@ -35,6 +35,14 @@ let proyectos = [
     },
     {
         id_proyecto: 5,
+        titulo: 'CLO2 Servicios y sistemas',
+        descripcion: 'Sitio web para una empresa dedicada a realizar distintos tratamientos de sanitización para frutas, verduras, ambientes, efluentes, etc.',
+        imagen: './assets/clo2.png',
+        link: 'https://clo2-astro.vercel.app',
+        alt: 'Imagen de clo2'
+    },
+    {
+        id_proyecto: 6,
         titulo: 'Yum Paltas',
         descripcion: 'Este es un proyecto a largo plazo que comencé el año pasado. Se trata de una aplicación web para un negocio de paltas de una persona conocida, con la idea que pueda gestionar su negocio de una manera mas clara, sencilla y comoda. Por el momento posee funcionalidades como el registro de usuarios para logeo, registro de las ventas, de clientes y de gastos. Este es el primer proyecto propio en el que tuve que implementar base de datos con MySql y un backend con Express.js en Node js.',
         imagen: './assets/YUM Paltas.png',

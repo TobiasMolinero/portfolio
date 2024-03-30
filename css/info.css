@@ -506,3 +506,16 @@
         margin-right: 10px;
     }
 }
+
+@media screen and (max-width: 510px){
+    .container_experiencia .card{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .container_experiencia .card span{
+        display: none;
+    }
+
+}
