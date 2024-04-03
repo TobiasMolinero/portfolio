@@ -36,7 +36,7 @@ let proyectos = [
     {
         id_proyecto: 5,
         titulo: 'CLO2 Servicios y sistemas',
-        descripcion: 'Sitio web para una empresa dedicada a realizar distintos tratamientos de sanitización para frutas, verduras, ambientes, efluentes, etc.',
+        descripcion: 'Sitio web para una empresa dedicada a realizar distintos tratamientos de sanitización para frutas, verduras, ambientes, efluentes, etc. Utilizando como recurso principal el gas Dioxido de cloro(CLO2)',
         imagen: './assets/clo2.png',
         link: 'https://clo2-astro.vercel.app',
         alt: 'Imagen de clo2'
