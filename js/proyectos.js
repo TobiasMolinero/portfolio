@@ -44,10 +44,18 @@ let proyectos = [
     {
         id_proyecto: 6,
         titulo: 'Yum Paltas',
-        descripcion: 'Este es un proyecto a largo plazo que comencé el año pasado. Se trata de una aplicación web para un negocio de paltas de una persona conocida, con la idea que pueda gestionar su negocio de una manera mas clara, sencilla y comoda. Por el momento posee funcionalidades como el registro de usuarios para logeo, registro de las ventas, de clientes y de gastos. Este es el primer proyecto propio en el que tuve que implementar base de datos con MySql y un backend con Express.js en Node js.',
+        descripcion: 'Este es un proyecto a largo plazo que comencé el año pasado. Se trata de una aplicación web para un negocio que se dedica a la venta de paltas, con la idea de que se pueda gestionar el negocio de una manera mas clara, sencilla y comoda. Por el momento posee funcionalidades como el registro de usuarios para logeo, registro de las ventas, de clientes y de gastos. Este es el primer proyecto propio en el que tuve que implementar base de datos con MySql y un backend con Express.js en Node js.',
         imagen: './assets/YUM Paltas.png',
         link: './index.html',
         alt: 'Imagen de Yum paltas'
+    },
+    {
+        id_proyecto: 7,
+        titulo: 'STAR WARS WIKI',
+        descripcion: 'Esta fue una prueba tecnica con tematica de star wars que hice para postular a un trabajo. En la prueba teniamos que utilizar next.js + typescript + tailwind para los estilos. Tambien teniamos que traer los datos de una api mediante la api de fetch. Lamentablemente no quede para este trabajo :( Pero me quedo bonito así que disfrutala!',
+        imagen: './assets/starwars-wiki.webp',
+        link: 'https://starwars-wiki-oa2m.vercel.app/',
+        alt: 'imagen del proyecto Star Wars wiki'
     }
 ]
 
