@@ -19,20 +19,20 @@ let proyectos = [
     {
         id_proyecto: 3,
         titulo: 'Matob Consultoría',
-        descripcion: 'Este sitio web lo desarrollé para una pequeña consultora de la cual formo parte como diseñador y desarrollador web. La desarrollé con HTML, CSS y Javascript. Faltan completarle algunos detalles pero va por buen camino.',
+        descripcion: 'Este sitio web lo desarrollé para una pequeña consultora de la cual formo parte como diseñador y desarrollador web. La desarrolle con el framework Astro y utilice TailwindCSS para los estilos.',
         imagen: './assets/matob.png',
         link: 'https://matob-astro.vercel.app/',
         alt: 'Imagen de matob'
 
     },
-    {
+    /*{
         id_proyecto: 5,
         titulo: 'CLO2 Servicios y sistemas',
         descripcion: 'Realizada con Astro, este sitio web es para una empresa dedicada a realizar distintos tratamientos de sanitización para frutas, verduras, ambientes, efluentes, etc. Utilizando como recurso principal el gas Dioxido de cloro(CLO2).',
         imagen: './assets/clo2.png',
         link: 'https://clo2-astro.vercel.app',
         alt: 'Imagen de clo2'
-    },
+    },*/
     /*{
         id_proyecto: 6,
         titulo: 'Yum Paltas',
@@ -44,7 +44,7 @@ let proyectos = [
     {
         id_proyecto: 7,
         titulo: 'STAR WARS WIKI',
-        descripcion: 'Esta fue una prueba tecnica con tematica de star wars que hice para postular a un trabajo. En la prueba teniamos que utilizar next.js + typescript + tailwind para los estilos. Tambien teniamos que traer los datos de una api mediante la api de fetch. Lamentablemente no quede para este trabajo :( Pero me quedo bonito así que disfrutala!',
+        descripcion: 'Esta fue una prueba tecnica con tematica de star wars que hice para postular a un trabajo. Desarrollado con next.js + typescript + tailwind para los estilos.',
         imagen: './assets/starwars-wiki.webp',
         link: 'https://starwars-wiki-sigma.vercel.app/',
         alt: 'imagen del proyecto Star Wars wiki'
