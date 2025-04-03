@@ -16,7 +16,7 @@ let proyectos = [
         alt: 'Imagen de Tobias Molinero portfolio'
 
     },
-    {
+    /*{
         id_proyecto: 3,
         titulo: 'Matob Consultoría',
         descripcion: 'Este sitio web lo desarrollé para una pequeña consultora de la cual formo parte como diseñador y desarrollador web. La desarrollé con HTML, CSS y Javascript. Faltan completarle algunos detalles pero va por buen camino.',
@@ -24,14 +24,6 @@ let proyectos = [
         link: 'https://tobiasmolinero.github.io/matob',
         alt: 'Imagen de matob'
 
-    },
-    {
-        id_proyecto: 4,
-        titulo: 'Molis Desarrollo web',
-        descripcion: 'Sitio para mi emprendimiento de desarrollo web que comencé junto a uno de mis hermanos. Actualmente se encuentra en proceso de desarrollo.',
-        imagen: './assets/molis.png',
-        link: 'https://tobiasmolinero.github.io/moli_desarrollo-web',
-        alt: 'Imagen de molis'
     },
     {
         id_proyecto: 5,
@@ -48,13 +40,13 @@ let proyectos = [
         imagen: './assets/YUM Paltas.png',
         link: './index.html',
         alt: 'Imagen de Yum paltas'
-    },
+    },*/
     {
         id_proyecto: 7,
         titulo: 'STAR WARS WIKI',
         descripcion: 'Esta fue una prueba tecnica con tematica de star wars que hice para postular a un trabajo. En la prueba teniamos que utilizar next.js + typescript + tailwind para los estilos. Tambien teniamos que traer los datos de una api mediante la api de fetch. Lamentablemente no quede para este trabajo :( Pero me quedo bonito así que disfrutala!',
         imagen: './assets/starwars-wiki.webp',
-        link: 'https://starwars-wiki-oa2m.vercel.app/',
+        link: 'https://starwars-wiki-sigma.vercel.app/',
         alt: 'imagen del proyecto Star Wars wiki'
     }
 ]
