@@ -21,7 +21,7 @@ let proyectos = [
         titulo: 'Matob Consultoría',
         descripcion: 'Este sitio web lo desarrollé para una pequeña consultora de la cual formo parte como diseñador y desarrollador web. La desarrollé con HTML, CSS y Javascript. Faltan completarle algunos detalles pero va por buen camino.',
         imagen: './assets/matob.png',
-        link: 'https://tobiasmolinero.github.io/matob',
+        link: 'https://matob-astro.vercel.app/',
         alt: 'Imagen de matob'
 
     },
