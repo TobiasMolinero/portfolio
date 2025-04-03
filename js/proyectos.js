@@ -16,7 +16,7 @@ let proyectos = [
         alt: 'Imagen de Tobias Molinero portfolio'
 
     },
-    /*{
+    {
         id_proyecto: 3,
         titulo: 'Matob Consultoría',
         descripcion: 'Este sitio web lo desarrollé para una pequeña consultora de la cual formo parte como diseñador y desarrollador web. La desarrollé con HTML, CSS y Javascript. Faltan completarle algunos detalles pero va por buen camino.',
@@ -33,7 +33,7 @@ let proyectos = [
         link: 'https://clo2-astro.vercel.app',
         alt: 'Imagen de clo2'
     },
-    {
+    /*{
         id_proyecto: 6,
         titulo: 'Yum Paltas',
         descripcion: 'Este es un proyecto a largo plazo que comencé el año pasado. Se trata de una aplicación web para un negocio que se dedica a la venta de paltas, con la idea de que se pueda gestionar el negocio de una manera mas clara, sencilla y comoda. Por el momento posee funcionalidades como el registro de usuarios para logeo, registro de las ventas, de clientes y de gastos. Este es el primer proyecto propio en el que tuve que implementar base de datos con MySql y un backend con Express.js en Node js.',
